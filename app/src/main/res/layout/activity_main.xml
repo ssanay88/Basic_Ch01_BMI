@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/height"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/heightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/weight"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/weightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/resultButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="확인하기" />
+
+
+</LinearLayout>
+
+
+    <!--
+
+    Ch01-1
+    LinearLayout 겹겹이 층으로 들어가는 레이아웃 가로축(horizontal) 혹은 세로축(vertical)
+    match_parent : 부모 레이아웃의 크기에 꽉 맞추겠다
+    wrap_content : 들어가는 콘텐츠의 사이즈에 따라 크기를 정하겠다
+
+    Ch01-2
+    margin : 컴포넌트의 바깥쪽에 공간을 추가하는 속성 (top,bottom 등 원하는 방향으로만 추가도 가능)
+    padding : 컴포넌트의 안쪽에 공간을 추가하는 속성
+    dp : 사이즈의 기본 단위 , 픽셀과 유사한 개념 , 고정된 단위값으로 생각
+    sp : 사용자의 선택에 따라 크기가 변하도록 하는 단위
+    자주 사용될 색들은 res-values-colors.xml 파일에 지정하고 사용하면 편하다
+    ctrl+Alt+L : Reformat 단축키 , 일정한 형태로 코드를 정렬하여 준다
+
+
+    -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
